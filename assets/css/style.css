@@ -1,4 +1,7 @@
-/*Astericsk wildcard selector to overide default styles added by the browser*/
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
@@ -10,9 +13,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic projrct styles */
+    /* Generic project styles */
     color: #3a3a3a;
-
+    font-family: 'Lato', sans-serif;
 }
 
 
